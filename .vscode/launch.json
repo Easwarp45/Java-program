@@ -5,6 +5,41 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "StrongNumber",
+            "request": "launch",
+            "mainClass": "StrongNumber",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "StongNumber",
+            "request": "launch",
+            "mainClass": "StongNumber",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "SumTillOne",
+            "request": "launch",
+            "mainClass": "SumTillOne",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "amstrongNumber",
+            "request": "launch",
+            "mainClass": "amstrongNumber",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "twistedPrime",
+            "request": "launch",
+            "mainClass": "twistedPrime",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
             "name": "Attach to Process",
             "type": "jdk",
             "request": "attach",

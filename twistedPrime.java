@@ -28,7 +28,6 @@ class twistedPrime
                     temp /= 10;
                     
                 }
-               // System.out.println(rev);
                 for (int ii = 1; ii <= rev ; ii++)
                 {
                     if (rev % ii == 0){
@@ -41,7 +40,6 @@ class twistedPrime
                 else {
                     System.out.println(rev+"Twsited is not prime ");
                     }
-                
             }
             
         }
