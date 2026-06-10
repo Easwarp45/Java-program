@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "EvenDiffOdd",
-            "request": "launch",
-            "mainClass": "EvenDiffOdd",
-            "projectName": "Java-program_7083d6f2"
-        },
-        {
-            "type": "java",
             "name": "StrongNumber",
             "request": "launch",
             "mainClass": "StrongNumber",
