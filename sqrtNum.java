@@ -15,6 +15,5 @@ class sqrtNum
 
         }
         System.out.println((int) guess);
-        //git System.out.println((int) result);
     }
 }

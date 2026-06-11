@@ -28,10 +28,7 @@ public class amstrongNumber {
             n = n + ams ;
             //n = n + diig;
             
-            //System.out.println(ams);
-            temp1 /= 10;
-        }
-        if ( n == num ){
+            //System.out.println(ams);older_files/sqrtNum.java
         System.out.println(n+" Amstrong Number");
         }
         else {
