@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DispInt",
+            "request": "launch",
+            "mainClass": "strings.DispInt",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "PrintString",
+            "request": "launch",
+            "mainClass": "strings.PrintString",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
             "name": "RemoveDuplicate",
             "request": "launch",
             "mainClass": "RemoveDuplicate",

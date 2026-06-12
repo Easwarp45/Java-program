@@ -7,8 +7,6 @@ class DuplicateDisp{
          for (int i= 0;i< size ; i++){
             arr[i]=sc.nextInt();
         }
-        int flag = 0;
-        int visiele = arr[0];
 for(int i = 0; i < arr.length; i++) {
 
     boolean alreadyPrinted = false;
