@@ -3,10 +3,11 @@ public class ReverseString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        String dup = str;
-        for (int i = 0; i < 10; i++) {
+        String dup = new String();
+        for (int i = str.length()-1; i >= 0 ; i--) {
             char temp = str.charAt(i);
-            
+            dup = dup+temp;
         }
+        System.out.print(dup);
     }
 }
