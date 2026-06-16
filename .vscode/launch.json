@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GoatLatin",
+            "request": "launch",
+            "mainClass": "GoatLatin",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
             "name": "DispInt",
             "request": "launch",
             "mainClass": "strings.DispInt",
