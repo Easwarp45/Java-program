@@ -15,8 +15,8 @@ public class IgnoreCase {
                 if (c2 >= 'A' && c2 <= 'Z') {
                     c2 = (char)(c2 + 32);
                 }
-                if (c1 != c2) {
-                    same = false;
+                if (c1 == c2) {
+                    same = true;
                     break;
                 }
             }
