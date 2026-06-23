@@ -17,10 +17,9 @@ class dispDiviAno{
                 
                 if ( num % i != i)
             {
-                if ( i  != num / i )
                 System.out.println( (num /i) +" The Divisor");
             }
             }
         }   
-        }
     }
+}

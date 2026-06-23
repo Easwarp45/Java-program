@@ -34,6 +34,9 @@ public class TitleCase {
                     && ch >= 'a' && ch <= 'z') {
                 ch = (char)(ch - 32);
             }
+            else if(ch >= 'A' && ch<='Z' && str.charAt(i-1) == ' ' ){
+                ch=(char)(ch+32);
+            }
 
             System.out.print(ch);
         }

@@ -6,7 +6,7 @@ public class AutoMorphism {
         int count=0;
         int temp=num;
         while(temp != 0){
-            int dig=temp%10;
+            //int dig=temp%10;
             count++;
             temp/=10;
         }
