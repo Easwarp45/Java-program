@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
             "name": "DispOnce",
             "request": "launch",
             "mainClass": "DispOnce",
