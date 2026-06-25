@@ -40,6 +40,7 @@ class Node
     Node next;
     Node(int da){
         this.data=da;
+        this.next=null;
     }
 }
     public class Main{
@@ -56,15 +57,39 @@ class Node
         void dis(){
             Node counter=head;
             while(counter !=null){
-                System.out.println(counter.data);
+                System.out.print(counter.data+" ");
                 counter=counter.next;
             }
+            System.out.println("");
         }
-        void insertFront(Node n){
-            Node counter =n;
-            counter.next=head;
-            head=n;
-
+        void insertFront(int da){
+            Node n4=new Node(da);
+            n4.next=head;
+            head=n4;
+        }
+        void insertEnd(int data){
+            Node n5 =new Node(data);
+            if(head == null){
+                head=n5;
+                return;
+            }
+            Node counter = head;
+            while(counter.next != null){
+                counter=counter.next;
+            }
+            counter.next=n5;
+        }
+        void insertAtPos(int data, int pos){
+            Node nn = new Node(data);
+            Node counter = head;
+            for(int i=1;i<pos-1;i++){
+                counter=counter.next;
+            }
+            if(counter == null){
+                System.out.println("Invalid Index");
+            }
+            nn.next=counter.next;
+            counter.next=nn;
         }
         
         public static void main(String[] args) {
@@ -81,20 +106,39 @@ class Node
             int count=0;
             Node coach =n1; */
             
-            Node n1=new Node(5);
+            /* Node n1=new Node(5);
             Node n2=new Node(6);
             Node n3=new Node(7);
             Node n4=new Node(4);
-            l1.head=n1;
+            l1.head=n1; */
 
             //l1.countnodes();
             //l1.dis();
-            System.out.println("After Insert At Front");
-            l1.insertFront(n4);
-            l1.insertFront(n3);
-            l1.insertFront(n2);
+           /*  System.out.println("After Insert At Front");
+            l1.insertFront(5);
+            l1.insertFront(6);
+            l1.insertFront(7);
+            l1.dis(); */
+            // l1.countnodes();
+            l1.insertFront(3);
             l1.dis();
+            System.out.println("After Insert at end");
+            l1.insertEnd(8);
+            l1.insertEnd(7);
+            l1.insertEnd(6);
+            l1.insertEnd(5);
+            l1.insertEnd(4);
+            l1.dis();
+            System.out.println("After Insert At Front");
+            l1.insertFront(9);
+            l1.insertFront(10);
+            l1.insertFront(11);
+            l1.dis();
+            System.out.println("Counts of a node");
             l1.countnodes();
+            System.out.println("Insert at any pos");
+            l1.insertAtPos(77, 6);
+            l1.dis();
             
     }
 }
