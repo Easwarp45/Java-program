@@ -1,10 +1,8 @@
 package matrix;
-
 import java.util.Scanner;
-
 public class DispReapetingRowEle {
     public static void main(String[] args) {
-           Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         int rowcol=sc.nextInt();
         int col=sc.nextInt();
         int mat[][]=new int[rowcol][col];

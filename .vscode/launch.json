@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FrequencyOfNum",
+            "request": "launch",
+            "mainClass": "FrequencyOfNum",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "StackArr",
+            "request": "launch",
+            "mainClass": "Stack.StackArr",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "DispReapetingRowEle",
+            "request": "launch",
+            "mainClass": "matrix.DispReapetingRowEle",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "DiagonalDifferenceOfMat",
+            "request": "launch",
+            "mainClass": "matrix.DiagonalDifferenceOfMat",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "CompareTwoMatrixValues",
+            "request": "launch",
+            "mainClass": "matrix.CompareTwoMatrixValues",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "BoundaryEleDisp",
+            "request": "launch",
+            "mainClass": "matrix.BoundaryEleDisp",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "SumOfColumn",
+            "request": "launch",
+            "mainClass": "matrix.SumOfColumn",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "DispLongWord",
+            "request": "launch",
+            "mainClass": "DispLongWord",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",

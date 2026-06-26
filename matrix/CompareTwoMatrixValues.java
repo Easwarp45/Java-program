@@ -16,7 +16,7 @@ public class CompareTwoMatrixValues {
             mat1[i][j]=sc.nextInt();
         }
     }
-    int count =0;
+    int count =1;
      for(int i=0;i<rowcol;i++){
             for(int j=0;j<rowcol;j++){
                 if(mat[i][j]==mat1[i][j]){
@@ -24,6 +24,7 @@ public class CompareTwoMatrixValues {
                 }
             }
         }
+        System.out.println(count);
         if(count ==(rowcol*rowcol)){
             System.out.println("True");
         }
