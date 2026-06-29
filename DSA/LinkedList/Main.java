@@ -122,7 +122,7 @@ class Node
             // l1.countnodes();
             l1.insertFront(3);
             l1.dis();
-            System.out.println("After Insert at end");
+            System.out.println("After Insert At end");
             l1.insertEnd(8);
             l1.insertEnd(7);
             l1.insertEnd(6);

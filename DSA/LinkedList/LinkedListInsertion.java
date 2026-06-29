@@ -7,7 +7,7 @@ class Node{
         this.next=null;
     }
 }
-public class linkedlist{
+public class LinkedListInsertion{
     Node head=null;
     void insertEnd(int data){
         Node newNode=new Node(data);
@@ -30,6 +30,18 @@ public class linkedlist{
         newNode.next=head;         
         head=newNode;   
     }
+    void insertAtPos(int data, int pos){
+            Node nn = new Node(data);
+            Node counter = head;
+            for(int i=1;i<pos-1;i++){
+                counter=counter.next;
+            }
+            if(counter == null){
+                System.out.println("Invalid Index");
+            }
+            nn.next=counter.next;
+            counter.next=nn;
+        }
     void disp(){
         Node temp=head;
         while(temp!=null){
@@ -41,13 +53,15 @@ public class linkedlist{
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        linkedlist obj=new linkedlist();
+        LinkedListInsertion obj=new LinkedListInsertion();
         obj.insertEnd(10);
         obj.insertEnd(20);
         obj.insertEnd(30);
         obj.insertEnd(40);
         obj.disp();
         obj.insertFront(50);
+        obj.disp();
+        obj.insertAtPos(80,3);
         obj.disp();
     }
 }
