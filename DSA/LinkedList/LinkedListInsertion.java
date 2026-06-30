@@ -21,6 +21,7 @@ public class LinkedListInsertion{
         }
         temp.next=newNode;
     }
+
     void insertFront(int data){
         Node newNode=new Node(data);
         if(head==null){
@@ -51,6 +52,17 @@ public class LinkedListInsertion{
         System.out.print(" null");
         System.out.println();
     }
+    void search (int data){
+        Node temp = head;
+        int i=1;
+        while (temp != null){
+            if(temp.data == data){
+            System.out.println(temp.data+" fount At  "+i);
+        }
+        i+=1;
+        temp=temp.next;
+    }
+    }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         LinkedListInsertion obj=new LinkedListInsertion();
@@ -63,5 +75,6 @@ public class LinkedListInsertion{
         obj.disp();
         obj.insertAtPos(80,3);
         obj.disp();
+        obj.search(30);
     }
 }
