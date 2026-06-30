@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoublyLinkedListCreation",
+            "request": "launch",
+            "mainClass": "DSA.DoublyLinkedList.DoublyLinkedListCreation",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "DSA.DoublyLinkedList.Practice",
+            "projectName": "Java-program_7083d6f2"
+        },
+        {
+            "type": "java",
             "name": "QueueArr",
             "request": "launch",
             "mainClass": "DSA.Queue.QueueArr",
